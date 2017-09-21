@@ -6,6 +6,11 @@ public class Event {
     public Event() {
     }
 
+    public Event(String name, String action) {
+        this.name = name;
+        this.action = action;
+    }
+
     public String getName() {
         return name;
     }
